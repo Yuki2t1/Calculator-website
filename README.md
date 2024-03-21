@@ -1,0 +1,1 @@
+This is a little calculator project i did while being bored so i guess you can tell that i stole the desgin of the calculator from google i am a programmer not a desginer so i hope you enjoy the rest of the day.
