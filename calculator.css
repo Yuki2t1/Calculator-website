@@ -1,0 +1,122 @@
+
+body{
+    background-image:linear-gradient(to left ,rgb(94, 94, 194),rgb(80, 80, 99));
+   
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#container {
+    box-shadow: 1px 1px 20px;
+    width: 235px;
+    height: 357px;
+    background-color:hsl(0,0%,15%); ;
+    border-radius:10px; 
+    margin: auto;
+    padding: 10px;
+    margin-top: 200px;
+    
+}
+#container #Display{
+    width: 98%;
+    height: 50px;
+    background-color:hsl(0,0%,20%); ;
+    border: none;
+    border-radius:10px; 
+    color: white;
+    font-size:large;
+}
+#Display:active{
+    transition: 1s;
+}
+#Display::selection{
+    background-color: rgb(243, 243, 243);
+}
+#keys{
+    
+    padding-top: 10px;
+    display: grid ;
+    grid-template-columns: repeat(4,1fr);
+    gap: 6px;
+    padding-left: 5px;
+    
+}
+#Keys:hover{
+    background-color: rgb(223, 10, 10);
+}
+.func-buttons,.calc-buttons{
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    border-radius: px;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(0,0%,40%);
+    font-size:large ;
+}
+.func-buttons{
+    background-color: hsl(35,100%,55%);
+}
+
+.func-buttons:hover{
+    background-color: hsl(35,100%,65%);
+}
+
+.calc-buttons:hover{
+    background-color:hsl(0,0%,50%); ;
+}
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#title{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#changei{
+    border: none;
+    background-color: rgb(120, 117, 180);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    height: 30px;
+}
+
+#changei:hover{
+    transition: 0.4s;
+    background-color: rgb(120, 117, 117);
+    margin-right: 20px;
+    
+}
+#main{
+    box-shadow: 1px 1px 20px;
+    width: 235px;
+    height: 357px;
+    background-color:hsl(0,0%,15%); ;
+    border-radius:10px; 
+    position: absolute;
+    display: none;
+    width: 140px;   
+    
+}
+.dropdown:hover #main{
+    display:block;
+}
+.BG-COLOR{
+    display: block;
+    padding-top: 9px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;  
+    padding-bottom: 7px; 
+}
+.BG-COLOR:hover{
+background-color: rgba(70, 69, 69, 0.698);
+
+}
